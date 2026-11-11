@@ -1,93 +1,206 @@
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy – [YOUR APP NAME]</title>
-<!--
-  PEHLE YE 3 CHEEZEIN REPLACE KARO (Ctrl+H se poori file mein):
-    [YOUR APP NAME]  -> app ka naam
-    [YOUR NAME]      -> tumhara naam (ya company ka naam)
-    [YOUR EMAIL]     -> tumhari contact email
--->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Privacy Policy - HiddenCalculator</title>
+
 <style>
-  :root { --bg:#ffffff; --fg:#1d1b20; --muted:#49454f; --accent:#6750a4; --line:#e7e0ec; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#141218; --fg:#e6e0e9; --muted:#cac4d0; --accent:#d0bcff; --line:#36343b; }
-  }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
-  main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
-  h1 { font-size:28px; margin:0 0 4px; }
-  h2 { font-size:20px; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
-  p, li { color:var(--fg); }
-  .muted { color:var(--muted); font-size:14px; }
-  a { color:var(--accent); }
-  ul { padding-left:22px; }
-  table { border-collapse:collapse; width:100%; font-size:15px; margin:8px 0; }
-  th, td { text-align:left; vertical-align:top; padding:8px 10px; border:1px solid var(--line); }
-  th { background:rgba(127,127,127,.1); }
+:root {
+    --bg: #ffffff;
+    --fg: #1d1b20;
+    --muted: #49454f;
+    --accent: #6750a4;
+    --line: #e7e0ec;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #141218;
+        --fg: #e6e0e9;
+        --muted: #cac4d0;
+        --accent: #d0bcff;
+        --line: #36343b;
+    }
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 Arial, sans-serif;
+}
+
+main {
+    max-width: 760px;
+    margin: auto;
+    padding: 32px 20px 64px;
+}
+
+h1 { font-size: 28px; }
+
+h2 {
+    font-size: 20px;
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+}
+
+.muted {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+a { color: var(--accent); }
+
+li { margin-bottom: 8px; }
 </style>
 </head>
+
 <body>
 <main>
 
 <h1>Privacy Policy</h1>
-<p class="muted">App: [YOUR APP NAME] &nbsp;|&nbsp; Developer: [YOUR NAME] &nbsp;|&nbsp; Last updated: November 2026</p>
 
-<p>This Privacy Policy explains what information [YOUR APP NAME] ("the app", "we") collects, how it is used, and the choices you have. By using the app you agree to this policy.</p>
+<p class="muted">
+App: HiddenCalculator |
+Developer: Ammad Saleem |
+Last updated: November 11, 2026
+</p>
 
-<h2>1. About the app</h2>
-<p>[YOUR APP NAME] looks like a normal calculator. It also contains a private vault where you can keep your own photos, videos, audio files and documents. The vault opens when you type your secret PIN into the calculator and press "=". Any other calculation works as a normal calculator.</p>
+<p>
+This Privacy Policy explains how HiddenCalculator collects,
+uses and protects your information when you use our application.
+</p>
 
-<h2>2. Information we collect</h2>
-<table>
-<tr><th>Information</th><th>When</th><th>Why</th></tr>
-<tr><td><b>Account details</b>: name, email address, profile name and a unique user ID</td><td>Only if you sign in with Google, Facebook or email</td><td>To identify your account and to back up and restore your vault</td></tr>
-<tr><td><b>Email and password</b></td><td>Only if you create an account with email</td><td>Handled by Google Firebase Authentication. We never see or store your password ourselves.</td></tr>
-<tr><td><b>Vault files</b>: photos, videos, audio and documents you add</td><td>When you add files to the vault</td><td>To keep them inside the vault. They are encrypted on your device. If you are signed in with an account, an encrypted copy is backed up to the cloud so you can restore it on a new phone.</td></tr>
-<tr><td><b>File names, types, sizes, dates and folder names</b></td><td>When you add files or create folders</td><td>To show your vault and restore it</td></tr>
-<tr><td><b>PIN (hashed)</b></td><td>When you set your PIN</td><td>To open the vault. We store only a salted hash of the PIN, never the PIN itself. For account users, this hash is also kept in the backup so your PIN works after you reinstall.</td></tr>
-<tr><td><b>Backup key</b></td><td>For account users</td><td>A random key used to encrypt your cloud backup. It is stored in your own protected cloud record so that you can restore on a new device.</td></tr>
-</table>
-<p><b>Guest mode:</b> if you choose "Continue as guest", no account is created and nothing is backed up. Your vault stays only on your phone. If you uninstall the app or clear its data, guest files are lost permanently.</p>
-<p>We do not collect your location, contacts, or advertising ID, and the app shows no ads.</p>
+<h2>1. About the App</h2>
+
+<p>
+HiddenCalculator is a calculator application that also provides
+a private vault feature. Users can access the private vault
+through a secret PIN.
+</p>
+
+<h2>2. Information We Collect</h2>
+
+<ul>
+<li>Account information such as name, email and user ID when you sign in.</li>
+<li>Authentication information processed through Firebase Authentication.</li>
+<li>Photos, videos, audio and documents selected by users for the vault.</li>
+<li>Information required to provide backup and restore services, if enabled.</li>
+</ul>
+
+<p>
+If you use guest mode, your information may remain stored locally
+on your device without account-based cloud backup.
+</p>
 
 <h2>3. Permissions</h2>
+
 <ul>
-<li><b>Photos, videos and audio (media access):</b> used only to let you choose files to put into the vault.</li>
-<li><b>Deleting originals:</b> when you add a file to the vault, the app removes the original from your gallery or storage so that it exists only inside the vault. Android may ask you to confirm this. Please keep this in mind before adding files, especially in guest mode where there is no backup.</li>
-<li><b>Internet:</b> used for sign-in and for the cloud backup and restore of account users.</li>
+<li><b>Media Access:</b> Used to select photos, videos and other files.</li>
+<li><b>Internet:</b> Used for authentication and online services.</li>
+<li><b>Storage:</b> Used for managing files in the private vault.</li>
 </ul>
 
-<h2>4. How we use information</h2>
-<ul>
-<li>To let you sign in and keep your vault private.</li>
-<li>To back up and restore your vault for signed-in users.</li>
-<li>To keep the service secure and fix problems.</li>
-</ul>
-<p>We do not sell your information, and we do not use your files for advertising or analytics. We cannot view your vault files in readable form.</p>
+<h2>4. How We Use Information</h2>
 
-<h2>5. Third-party services</h2>
-<p>The app uses these services, which may process your information under their own policies:</p>
 <ul>
-<li><b>Google</b> (Google Sign-In, Firebase Authentication, Cloud Firestore): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> and <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
-<li><b>Meta / Facebook</b> (Facebook Login): <a href="https://www.facebook.com/privacy/policy">facebook.com/privacy/policy</a></li>
+<li>To provide application features.</li>
+<li>To authenticate users.</li>
+<li>To manage private vault files.</li>
+<li>To provide backup and restore features, where available.</li>
+<li>To improve application security and performance.</li>
 </ul>
 
-<h2>6. Data storage and security</h2>
-<p>Vault files are encrypted on your device. Cloud backups are encrypted before upload and stored in your account's protected area, which only you can access through your signed-in account. No method of storage or transmission is completely secure, so we cannot guarantee absolute security. Please keep your PIN and account password private.</p>
+<p>
+We do not sell users' personal information.
+</p>
 
-<h2>7. Data retention and deletion</h2>
-<p>We keep your account data and backup until you ask us to delete them. You can request deletion at any time by following the steps on our <a href="data_deletion.html">Data Deletion page</a> or by emailing <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a>. We will delete your account and backup within 30 days. Guest data is stored only on your phone and is removed when you uninstall the app or clear its data.</p>
+<h2>5. Third-Party Services</h2>
 
-<h2>8. Children</h2>
-<p>The app is not directed at children under 13 (or the minimum age in your country), and we do not knowingly collect their information. If you believe a child has given us information, contact us and we will delete it.</p>
+<p>
+HiddenCalculator may use the following third-party services:
+</p>
 
-<h2>9. Changes to this policy</h2>
-<p>We may update this policy from time to time. The latest version will always be on this page with a new "Last updated" date.</p>
+<ul>
+<li>
+Google Firebase:
+<a href="https://firebase.google.com/support/privacy">
+Firebase Privacy Information
+</a>
+</li>
 
-<h2>10. Contact</h2>
-<p>[YOUR NAME]<br>Email: <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></p>
+<li>
+Facebook Login:
+<a href="https://www.facebook.com/privacy/policy/">
+Facebook Privacy Policy
+</a>
+</li>
+
+<li>
+Google Privacy Policy:
+<a href="https://policies.google.com/privacy">
+Google Privacy Policy
+</a>
+</li>
+</ul>
+
+<h2>6. Data Security</h2>
+
+<p>
+We take reasonable measures to protect user information.
+However, no electronic storage or internet transmission
+method can guarantee complete security.
+</p>
+
+<h2>7. Data Retention and Deletion</h2>
+
+<p>
+Users can request deletion of their account and associated
+personal information by contacting us through email.
+</p>
+
+<p>
+Email:
+<a href="mailto:ammadsaleem252@gmail.com">
+ammadsaleem252@gmail.com
+</a>
+</p>
+
+<p>
+We will review deletion requests and process them according
+to applicable requirements and our data retention practices.
+</p>
+
+<h2>8. Children's Privacy</h2>
+
+<p>
+Our application is not intended for children under 13.
+We do not knowingly collect personal information from children.
+</p>
+
+<h2>9. Changes to This Policy</h2>
+
+<p>
+We may update this Privacy Policy from time to time.
+Any updates will be published on this page.
+</p>
+
+<h2>10. Contact Us</h2>
+
+<p>
+Developer: Ammad Saleem
+</p>
+
+<p>
+Email:
+<a href="mailto:ammadsaleem252@gmail.com">
+ammadsaleem252@gmail.com
+</a>
+</p>
 
 </main>
 </body>
